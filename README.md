@@ -45,7 +45,7 @@ Model 3D face for a single image (`./script/iris3d_file.sh`) or all images in a 
 3. Run the script
 
 ## Usage
-./IRIS_3DMM {"<paramName> <paramValue>"}
+./IRIS_3DMM {paramName paramValue}
 
 Behavious:
 - Output a set of files: 3D model (`.ply`), cropped image (`.ply_cropped.png`), shape parameters (`.alpha`), texture parameters (`.beta`), and render parameters (`.rend`). The render parameters include: rotation angles (3), translation (3), ambient light (3), diffuse light (3), light direction (2), color model parameters (7).
