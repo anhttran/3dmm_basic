@@ -4,6 +4,7 @@ An implementation of 3DMM fitting algorithm proposed by [2] and [3] to solve the
 
 ## Compilation:
 Platforms: Linux
+
 **Important note:** To use the code as is, you will need to ask for an access to the [Basel Face Model database](http://faces.cs.unibas.ch/bfm/main.php?nav=1-1-0&id=details). As per the license of the database, I'm not allowed to redistribute it. 
 
 0. Download [BaselFace.dat](https://drive.google.com/file/d/1N_d95ZUDSHk5RHD4X0-TnNj5pZGJqW55/view?usp=sharing) and copy it to `lib` directory.
