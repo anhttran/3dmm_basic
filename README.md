@@ -47,10 +47,10 @@ Model 3D face for a single image (`./script/iris3d_file.sh`) or all images in a 
 ## Usage
 ./IRIS_3DMM {paramName paramValue}
 
-Behavious:
-- Output a set of files: 3D model (`.ply`), cropped image (`.ply_cropped.png`), shape parameters (`.alpha`), texture parameters (`.beta`), and render parameters (`.rend`). The render parameters include: rotation angles (3), translation (3), ambient light (3), diffuse light (3), light direction (2), color model parameters (7).
+Behaviours:
+- Output a set of files: 3D model (`.ply`), cropped image (`.ply_cropped.png`), shape parameters (`.alpha`), texture parameters (`.beta`), and render parameters (`.rend`). The render parameters include: rotation angles (3), translation (3), ambient light (3), diffuse light (3), light direction (2), and color model parameters (7).
 - Default instrinsic camera matrix: `[-1000 0 w/2; 0 1000 h/2; 0 0 1]` (`w` & `h` are width & height of the cropped image)
-- To avoid some runtime error, this program works on maximum 36 images per run. It saves index of the lasted processed image into file `startF.txt`. You can continue to process the next images by passing parameter `"-con 1"` in the next run. After finishing, it saves `-1` into `startF.txt`.
+- To avoid some runtime errors, this program works on maximum 36 images per run. It saves index of the last processed image into file `startF.txt`. You can continue to process the next images by passing parameter `"-con 1"` in the next run. After finishing, it saves `-1` into `startF.txt`.
 - If the output model file (`.ply`) exists, the program will skip it and goes to the next one. Hence, if you want to re-generates 3D models, you need to clean up the output folder before running.
 
 Parameters:
