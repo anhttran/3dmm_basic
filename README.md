@@ -83,6 +83,8 @@ in startF as 200 and run the program with parameter "-con 1"
 
 [3] S. Romdhani, "[Face image analysis using a multiple features fitting strategy]", PhD diss., University_of_Basel, 2005.
 
+[4] T. Baltrusaitis, P. Robinson, L. P. Morency, "[Constrained local neural fields for robust facial landmark detection in the wild]", In Proceedings of the IEEE International Conference on Computer Vision Workshops, pp. 354-361. 2013.
+
 ## Changelog
 - Dec 2017, First Release 
 
