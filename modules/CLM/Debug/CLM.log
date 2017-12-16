@@ -1,0 +1,57 @@
+﻿Build started 2014-09-12 오전 12:27:26.
+     1>Project "C:\Users\KangGeon\Desktop\USC\Research\Codes\CLM\CLM_framework_v0.9 - Janus\CLM_framework_v0.9\lib\local\CLM\CLM.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\CLM.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I./include /I"C:\Users\KangGeon\Desktop\USC\Research\Codes\CLM\CLM_framework_v0.9 - Janus\CLM_framework_v0.9\lib\3rdParty\boost" /I"C:\Users\KangGeon\Desktop\USC\Research\Codes\CLM\CLM_framework_v0.9 - Janus\CLM_framework_v0.9\lib\3rdParty\boost\boost" /I"C:\Users\KangGeon\Desktop\USC\Research\Codes\CLM\CLM_framework_v0.9 - Janus\CLM_framework_v0.9\lib\3rdParty\Eigen" /I"C:\Users\KangGeon\Desktop\USC\Research\Codes\CLM\CLM_framework_v0.9 - Janus\CLM_framework_v0.9\lib\3rdParty\OpenCV\include\opencv" /I"C:\Users\KangGeon\Desktop\USC\Research\Codes\CLM\CLM_framework_v0.9 - Janus\CLM_framework_v0.9\lib\3rdParty\OpenCV\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D EIGEN_MPL2_ONLY /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /openmp- /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\CLM_utils.cpp
+         CLM_utils.cpp
+     1>c:\users\kanggeon\desktop\usc\research\codes\clm\clm_framework_v0.9 - janus\clm_framework_v0.9\lib\3rdparty\opencv\include\opencv2\flann\dist.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\users\kanggeon\desktop\usc\research\codes\clm\clm_framework_v0.9 - janus\clm_framework_v0.9\lib\3rdparty\opencv\include\opencv2\flann\dist.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\users\kanggeon\desktop\usc\research\codes\clm\clm_framework_v0.9 - janus\clm_framework_v0.9\lib\3rdparty\opencv\include\opencv2\flann\dist.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\users\kanggeon\desktop\usc\research\codes\clm\clm_framework_v0.9 - janus\clm_framework_v0.9\lib\3rdparty\opencv\include\opencv2\flann\dist.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\users\kanggeon\desktop\usc\research\codes\clm\clm_framework_v0.9 - janus\clm_framework_v0.9\lib\local\clm\src\clm_utils.cpp(98): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\kanggeon\desktop\usc\research\codes\clm\clm_framework_v0.9 - janus\clm_framework_v0.9\lib\local\clm\src\clm_utils.cpp(100): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\kanggeon\desktop\usc\research\codes\clm\clm_framework_v0.9 - janus\clm_framework_v0.9\lib\local\clm\src\clm_utils.cpp(102): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\kanggeon\desktop\usc\research\codes\clm\clm_framework_v0.9 - janus\clm_framework_v0.9\lib\local\clm\src\clm_utils.cpp(104): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\kanggeon\desktop\usc\research\codes\clm\clm_framework_v0.9 - janus\clm_framework_v0.9\lib\local\clm\src\clm_utils.cpp(106): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\kanggeon\desktop\usc\research\codes\clm\clm_framework_v0.9 - janus\clm_framework_v0.9\lib\local\clm\src\clm_utils.cpp(108): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\kanggeon\desktop\usc\research\codes\clm\clm_framework_v0.9 - janus\clm_framework_v0.9\lib\local\clm\src\clm_utils.cpp(110): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\kanggeon\desktop\usc\research\codes\clm\clm_framework_v0.9 - janus\clm_framework_v0.9\lib\local\clm\src\clm_utils.cpp(112): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\kanggeon\desktop\usc\research\codes\clm\clm_framework_v0.9 - janus\clm_framework_v0.9\lib\local\clm\src\clm_utils.cpp(114): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\kanggeon\desktop\usc\research\codes\clm\clm_framework_v0.9 - janus\clm_framework_v0.9\lib\local\clm\src\clm_utils.cpp(116): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\kanggeon\desktop\usc\research\codes\clm\clm_framework_v0.9 - janus\clm_framework_v0.9\lib\local\clm\src\clm_utils.cpp(397): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kanggeon\desktop\usc\research\codes\clm\clm_framework_v0.9 - janus\clm_framework_v0.9\lib\local\clm\src\clm_utils.cpp(455): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\kanggeon\desktop\usc\research\codes\clm\clm_framework_v0.9 - janus\clm_framework_v0.9\lib\local\clm\src\clm_utils.cpp(497): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\kanggeon\desktop\usc\research\codes\clm\clm_framework_v0.9 - janus\clm_framework_v0.9\lib\local\clm\src\clm_utils.cpp(483) : definition of 'i' ignored
+                 c:\users\kanggeon\desktop\usc\research\codes\clm\clm_framework_v0.9 - janus\clm_framework_v0.9\lib\local\clm\src\clm_utils.cpp(273) : definition of 'i' used
+     1>c:\users\kanggeon\desktop\usc\research\codes\clm\clm_framework_v0.9 - janus\clm_framework_v0.9\lib\local\clm\src\clm_utils.cpp(498): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\kanggeon\desktop\usc\research\codes\clm\clm_framework_v0.9 - janus\clm_framework_v0.9\lib\local\clm\src\clm_utils.cpp(483) : definition of 'i' ignored
+                 c:\users\kanggeon\desktop\usc\research\codes\clm\clm_framework_v0.9 - janus\clm_framework_v0.9\lib\local\clm\src\clm_utils.cpp(273) : definition of 'i' used
+     1>c:\users\kanggeon\desktop\usc\research\codes\clm\clm_framework_v0.9 - janus\clm_framework_v0.9\lib\local\clm\src\clm_utils.cpp(499): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\kanggeon\desktop\usc\research\codes\clm\clm_framework_v0.9 - janus\clm_framework_v0.9\lib\local\clm\src\clm_utils.cpp(483) : definition of 'i' ignored
+                 c:\users\kanggeon\desktop\usc\research\codes\clm\clm_framework_v0.9 - janus\clm_framework_v0.9\lib\local\clm\src\clm_utils.cpp(273) : definition of 'i' used
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\KangGeon\Desktop\USC\Research\Codes\CLM\CLM_framework_v0.9 - Janus\CLM_framework_v0.9\Debug\CLM.lib" /NOLOGO Debug\CCNF_patch_expert.obj
+         Debug\CLM.obj
+         Debug\CLMTracker.obj
+         Debug\CLM_utils.obj
+         Debug\DetectionValidator.obj
+         Debug\Patch_experts.obj
+         Debug\PAW.obj
+         Debug\PDM.obj
+         Debug\SVR_patch_expert.obj
+         CLM.vcxproj -> C:\Users\KangGeon\Desktop\USC\Research\Codes\CLM\CLM_framework_v0.9 - Janus\CLM_framework_v0.9\Debug\CLM.lib
+       PostBuildEvent:
+         xcopy /I /E /Y /D "C:\Users\KangGeon\Desktop\USC\Research\Codes\CLM\CLM_framework_v0.9 - Janus\CLM_framework_v0.9\lib\local\CLM\model" "C:\Users\KangGeon\Desktop\USC\Research\Codes\CLM\CLM_framework_v0.9 - Janus\CLM_framework_v0.9\Debug\model"
+         xcopy /I /E /Y /D "C:\Users\KangGeon\Desktop\USC\Research\Codes\CLM\CLM_framework_v0.9 - Janus\CLM_framework_v0.9\lib\3rdParty\OpenCV\classifiers" "C:\Users\KangGeon\Desktop\USC\Research\Codes\CLM\CLM_framework_v0.9 - Janus\CLM_framework_v0.9\Debug\classifiers"
+         :VCEnd
+         0개 파일이 복사되었습니다.
+         0개 파일이 복사되었습니다.
+       FinalizeBuildStatus:
+         Deleting file "Debug\CLM.unsuccessfulbuild".
+         Touching "Debug\CLM.lastbuildstate".
+     1>Done Building Project "C:\Users\KangGeon\Desktop\USC\Research\Codes\CLM\CLM_framework_v0.9 - Janus\CLM_framework_v0.9\lib\local\CLM\CLM.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.70
