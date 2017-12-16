@@ -7,7 +7,7 @@ Platforms: Linux
 
 **Important note:** To use the code as is, you will need to ask for an access to the [Basel Face Model database](http://faces.cs.unibas.ch/bfm/main.php?nav=1-1-0&id=details). As per the license of the database, I'm not allowed to redistribute it. 
 
-0. Download [BaselFace.dat](https://drive.google.com/file/d/1N_d95ZUDSHk5RHD4X0-TnNj5pZGJqW55/view?usp=sharing) and copy it to `lib` directory.
+0. Send an email to **anstar1111@gmail.com** or **jongmoochoi@gmail.com** with a proof of your permission to use Basel Face Model.  We will give you the binary data (`BaselFace.dat`). Copy it to `lib` directory.
 
 1. Get Ubuntu 64 bit 12.04 or later 
 
