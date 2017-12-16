@@ -79,11 +79,11 @@ in startF as 200 and run the program with parameter "-con 1"
 
 [1] A. Tran, T. Hassner, I. Masi, G. Medioni, "[Regressing Robust and Discriminative 3D Morphable Models with a very Deep Neural Network](https://arxiv.org/abs/1612.04904)", arxiv pre-print 2016 
 
-[2] V. Blanz, T. Vetter, "[Face recognition based on fitting a 3D morphable model]", IEEE Transactions on pattern analysis and machine intelligence 25, no. 9 (2003): 1063-1074.
+[2] V. Blanz, T. Vetter, "[Face recognition based on fitting a 3D morphable model](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=1227983)", IEEE Transactions on pattern analysis and machine intelligence 25, no. 9 (2003): 1063-1074.
 
-[3] S. Romdhani, "[Face image analysis using a multiple features fitting strategy]", PhD diss., University_of_Basel, 2005.
+[3] S. Romdhani, "[Face image analysis using a multiple features fitting strategy](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.471.3366&rep=rep1&type=pdf)", PhD diss., University_of_Basel, 2005.
 
-[4] T. Baltrusaitis, P. Robinson, L. P. Morency, "[Constrained local neural fields for robust facial landmark detection in the wild]", In Proceedings of the IEEE International Conference on Computer Vision Workshops, pp. 354-361. 2013.
+[4] T. Baltrusaitis, P. Robinson, L. P. Morency, "[Constrained local neural fields for robust facial landmark detection in the wild](https://www.cl.cam.ac.uk/~tb346/pub/papers/iccv2013.pdf)", In Proceedings of the IEEE International Conference on Computer Vision Workshops, pp. 354-361. 2013.
 
 ## Changelog
 - Dec 2017, First Release 
