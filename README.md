@@ -7,7 +7,21 @@ Platforms: Linux
 
 **Important note:** To use the code as is, you will need to ask for an access to the [Basel Face Model database](http://faces.cs.unibas.ch/bfm/main.php?nav=1-1-0&id=details). Without this license, I'm not allowed to redistribute it. 
 
-0. Send an email to **anstar1111@gmail.com** or **jongmoochoi@gmail.com** with a proof of your permission to use Basel Face Model.  We will give you the binary data (`BaselFace.dat`). Copy it to `lib` directory.
+Send an email to **anstar1111@gmail.com** or **jongmoochoi@gmail.com** with a proof of your permission to use Basel Face Model.  We will give you the binary data (`BaselFace.dat`). Copy it to `lib` directory.
+
+There are 2 options below to compile our code:
+
+### Installation with Docker (recommended)
+
+- Install [Docker CE](https://docs.docker.com/install/)
+- With Linux, [manage Docker as non-root user](https://docs.docker.com/install/linux/linux-postinstall/)
+- Build docker image:
+```
+	docker build -t 3dmm-basic .
+```
+### Installation without Docker on Linux
+
+The steps below have been tested on Ubuntu Linux only:
 
 1. Get Ubuntu 64 bit 12.04 or later 
 
@@ -35,6 +49,16 @@ Platforms: Linux
 ```
 		
 The executable file `IRIS_3DMM` is in folder `bin`
+
+## Start docker container
+If you compile our code with Docker, you need to start a Docker container to run our code. You also need to set up a shared folder to transfer input/output data between the host computer and the container.
+- Prepare the shared folder on the host computer. For example, `/home/ubuntu/shared`
+- Copy input data (if needed) to the shared folder
+- Start container:
+```
+	docker run --rm -ti --ipc=host --privileged -v /home/ubuntu/shared:/shared 3dmm-bash bash
+```
+Now folder `/home/ubuntu/shared` on your host computer will be mounted to folder `/shared` inside the container. Before exiting the docker container, remember to save your output data to the shared folder.
 
 ## Examples:
 Model 3D face for a single image (`./script/iris3d_file.sh`) or all images in a folder (`./script/iris3d_dir.sh`)
