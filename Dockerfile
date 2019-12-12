@@ -4,8 +4,8 @@ ADD . /app
 
 RUN apt-get update
 RUN apt-get install -y libhdf5-serial-dev libboost-all-dev nano cmake libosmesa6-dev freeglut3-dev awscli zip
-RUN pip3 uninstall -y requests
-RUN pip3 install requests==2.12
+#RUN pip3 uninstall -y requests
+#RUN pip3 install requests==2.12
 
 RUN mkdir build; \
 	cd build; \
