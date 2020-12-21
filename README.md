@@ -56,7 +56,7 @@ If you compile our code with Docker, you need to start a Docker container to run
 - Copy input data (if needed) to the shared folder
 - Start container:
 ```
-	docker run --rm -ti --ipc=host --privileged -v /home/ubuntu/shared:/shared 3dmm-bash bash
+	docker run --rm -ti --ipc=host --privileged -v /home/ubuntu/shared:/shared 3dmm-basic bash
 ```
 Now folder `/home/ubuntu/shared` on your host computer will be mounted to folder `/shared` inside the container. Before exiting the docker container, remember to save your output data to the shared folder.
 
